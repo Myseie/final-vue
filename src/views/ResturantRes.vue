@@ -20,7 +20,7 @@ img{
     max-width: 80%;
     max-height: 80%;
     padding: 3px;
-    border:  4px solid white;
+    border:  4px solid rgb(12, 12, 12);
 }
 h2{
     color:aliceblue;

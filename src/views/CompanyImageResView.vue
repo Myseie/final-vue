@@ -1,13 +1,13 @@
 <template>
-    <div class="body">
+    
     <h2>Hur resultat blev för allt</h2>
-    <h3>Anställda</h3>
-    <img src="@/assets/CompanyPage/CompanyEmpRes.jpg" alt="">
-    <h3>About us sida</h3>
-    <img src="@/assets/CompanyPage/CompanyAURes.jpg" alt="">
-    <h3>Var man hittar företaget och kontaktar</h3>
-    <img src="@/assets/CompanyPage/CompanyConRes.jpg" alt="">
-    </div>
+    <h3>Anställda</h3><div class="body">
+    <img src="@/assets/CompanyPage/CompanyEmpRes.jpg" alt=""></div>
+    <h3>About us sida</h3><div class="body">
+    <img src="@/assets/CompanyPage/CompanyAURes.jpg" alt=""></div>
+    <h3>Var man hittar företaget och kontaktar</h3><div class="body">
+    <img src="@/assets/CompanyPage/CompanyConRes.jpg" alt=""></div>
+   
 </template> 
 
 
@@ -18,7 +18,7 @@ img{
     padding: 3px;
 }
 .body{
-    background-color: black;
+    border: 3px solid black;
 }
 h2{
     color:aliceblue;

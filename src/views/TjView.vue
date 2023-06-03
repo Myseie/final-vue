@@ -10,8 +10,8 @@
     <img :src="currentImage">
     <button @click="nextImage">Nästa</button>
    </div>
-<h2>Resultatet</h2>
-<img src="@/assets/trainingjournal/TJResultat.jpg" alt="">
+<h2>Resultatet</h2><div class="result">
+<img src="@/assets/trainingjournal/TJResultat.jpg" alt=""></div>
 </template>
 
 
@@ -91,5 +91,9 @@ img{
 
 .image-slider button:hover{
     opacity: 0.7;
+}
+.result{
+    border: 3px solid black;
+    
 }
 </style>

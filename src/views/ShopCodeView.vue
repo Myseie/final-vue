@@ -16,3 +16,10 @@
     <img src="@/assets/ShopVue/ShopBoughtVue.jpg" alt=""><br>
     <router-link to="/shopres">Resultatet</router-link>
 </template>
+
+<style scoped>
+img{
+    max-width: 80%;
+    max-height: 80%;
+}
+</style>
